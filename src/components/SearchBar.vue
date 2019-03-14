@@ -1,5 +1,6 @@
 <template>
 	<div>
+		<h1>Youtube Clone</h1>
 		<input @input="onInput">
 	</div>
 </template>
@@ -16,4 +17,11 @@
 </script>
 
 <style scoped>
+	input {
+		width: 75%;
+	}
+	div {
+		text-align: center;
+		margin: 20px;
+	}
 </style>
